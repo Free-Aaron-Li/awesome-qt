@@ -44,6 +44,9 @@ bin/
 .vscode/
 .idea/
 
+# AI files
+.junie/
+
 # CMake
 build/
 cmake-build-*/

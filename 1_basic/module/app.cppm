@@ -43,7 +43,11 @@ run_app(int argc, char* argv[]) {
      *       "${CMAKE_CURRENT_SOURCE_DIR}/ui")
      * 前者相对于后者调用关系更干净。
      */
-    mainwindow w;
+    // mainwindow w;
+    // w.show();
+
+    /** 4. 练习：计算机 */
+    basic::widgets::mainwindow w;
     w.show();
 
     return app.exec();

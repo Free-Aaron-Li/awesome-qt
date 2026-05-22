@@ -13,6 +13,7 @@ add_executable(1_basics
                ui/mainwindow.cpp
                ui/mainwindow.hpp
                ui/mainwindow.ui
+               module/calculator.cppm
 )
 
 # 3. 为目标添加 C++20 模块源文件
@@ -23,6 +24,7 @@ target_sources(1_basics
                FILE_SET cxx_modules TYPE CXX_MODULES
                FILES
                module/app.cppm
+               module/calculator.cppm
 )
 
 # 4.寻找模块
